@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -47,3 +48,6 @@ return(
 )
 } 
 ->now all the nested pages in about, including about will have this layout. 
+=======
+# Next-JS
+>>>>>>> f2cad49ff11f83364a8fda1ca8329231209b2950
