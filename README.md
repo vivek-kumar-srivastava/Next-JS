@@ -34,3 +34,16 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+To make a layout page
+->select the folder in which you want a layout 
+->make layout.js in it, no other name
+->inside layout.js make a export default function Layout({children}){
+return(
+    <div>
+    <h1>Common layout for about page<h1>
+    {children}
+    <div>
+)
+} 
+->now all the nested pages in about, including about will have this layout. 
